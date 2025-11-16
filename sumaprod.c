@@ -14,6 +14,9 @@ int main(int argc, char *argv[]) { //Funció principal del programa,recull quant
         printf("El producte de %s i %s és %d\n", //Imprimeix en pantalla el producte de la operació
                argv[2], argv[3], atoi(argv[2]) * atoi(argv[3]));
     }
+    else{
+    	printf("Error! Si us plau introduir un operador valid, + o *\n");
+    }
 
     return 0;//Si arriba aqui retorna 0, que vol dir que tot a anat bé i torna al sistema operatiu.
 }
